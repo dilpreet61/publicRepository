@@ -5,7 +5,7 @@ print("Welcome to our Conference Hall!")
 tickets = list(map(int, input("How many tickets do you want to buy?: ")))
 age = list(map(int, input("Please, enter the age of each person with space: ").split()))
 
-# Объявляем пустую переменную-счётчик и циклом for-in проходим по лист возрастов для определения стоимости билета;
+# Объявляем пустую переменную-счётчик (total_sum) и циклом for-in проходим по листу возрастов (age) для определения стоимости билета;
 
 total_sum = 0
 for item in age:
