@@ -25,10 +25,10 @@ def binary_search(sequence, any_number):
         middle = (low + high) // 2
 
 # Cheking is interested number in a sorted list of sequence
-if low > high:
-    print("No value")
-else:
-    print(f"The position of chosen number in a sorted sequence is {middle}")
+    if low > high:
+        print("No value")
+    else:
+        print(f"The position of chosen number in a sorted sequence is {middle}")
 
 result = binary_search(sequence, any_number)
 print(result)
