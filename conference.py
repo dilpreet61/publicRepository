@@ -1,7 +1,6 @@
 print("Welcome to our Conference Hall!")
 
-# После приветствия пользователя просим ввести количество покупаемых билетов и возраст людей, которые преобразуются в листы с числовыми значениями;
-
+#This is the new comment added by me.
 tickets = list(map(int, input("How many tickets do you want to buy?: ")))
 age = list(map(int, input("Please, enter the age of each person with space: ").split()))
 
